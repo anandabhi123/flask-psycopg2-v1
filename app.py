@@ -32,7 +32,7 @@ def contacts():
     try:
         my_list = []
         if cur != None:
-            cur.execute("""select name from salesforce.account""")
+            cur.execute("""select name from salesforce.acount""")
             rows = cur.fetchall()
             response = ''
             
